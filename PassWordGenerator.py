@@ -7,13 +7,14 @@ def generate_password(len):
     return password
 
 def main():
-    print("Generator")
+    while(True):
+        print("Generator")
 
-    len = int(input("Enter length of password: "))
+        len = int(input("Enter length of password: "))
 
-    password = generate_password(len)
+        password = generate_password(len)
 
-    print("Generated Password: ", password)
+        print("Generated Password: ", password)
 
 if __name__ == "__main__":
     main()
